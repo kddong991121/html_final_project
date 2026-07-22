@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>담양</title>
+        <style>
+            button{
+                float: left;
+            }
+            hr{
+                background-color: blue;
+                height: 2px;
+            }
+            body{
+                background-color:beige;
+                text-align: center;
+            }
+            .title{
+                font: bold;
+                font-size: 25px;
+                font-weight: 900;
+                color: red;
+            }
+            .lineheight{
+                line-height: 200%;
+            }
+            .fg{
+                opacity: 0.5;
+            }
+        </style>
+    </head>
+    <body>
+        <button type="button" onclick="location.href='Project1.html'">홈으로</button>
+        <p class="title">일본</p>
+        <img src="media/JP.png" alt="" width="25%" height="25%">
+        <h3>오사카성</h3>
+        <hr>
+        <p class="lineheight">
+            <figure>
+                <img src="media/osaka.jpg" width="25%" height="25%"> <br>
+                <figcaption class="fg">일본 오사카성</figcaption>
+            </figure>
+            중학교때 일본 여행을 두 번 다녀왔다. <br>
+            일본은 내가 여행한 국가 중 가장 기억에 남지 않은 여행이다. <br>
+            내가 다녔던 해외여행 중 가장 오래 되었기도 했지만, 재미가 없었다. <br>
+            아마도 가장 가까운 아시아 국가이기에 우리나라와 느낌이 크게 다르지 않기에 그런 것같다. <br>
+            오사카성은 웅장했다. 봄에 갔다면 벚꽃이 피어있는 오사카성을 볼 수 있었을텐데 아쉬웠다. <br>
+            <hr>
+            <h3>딤섬 [팀호완]</h3>
+            <figure>
+                <img src="media/doton.jpg" width="25%" height="25%"> <br>
+                <figcaption class="fg">일본 도톤보리</figcaption>
+            </figure>
+
+            일본에 와서 가장 놀랐던 점은 길거리에 쓰레기가 하나도 없이 너무 깨끗했다는 점이다. <br>
+            내가 알기에는 일본사람들이 흡연을 정말 많이 하는것으로 알고있는데. <br>
+            그 흔한 담배꽁초 하나 찾기도 힘들었다. <br>
+            이렇게 번화가인 도톤보리도 정말 깨끗했다. 이런 점은 우리나라가 충분히 배워야한다고 생각했다. <br>
+            도톤보리에서 일본의 대표음식들을 다 접해볼 수 있었는데 <br>
+            초밥, 스시, 라멘 등 맛있는 음식들이 많았지만 이 역시 우리나라에서도 충분히 느낄 수 있는 맛이라고 생각했다.
+            <hr>
+        <form>
+            이 게시물이 유용했나요 ?
+            <input type="range" min="0" max="100" list="rangevisibility">
+            <datalist id="rangevisibility">
+                <option value="0" label="0"></option>
+                <option value="10"></option>
+                <option value="20"></option>
+                <option value="30"></option>
+                <option value="40"></option>
+                <option value="50" label="50"></option>
+                <option value="60"></option>
+                <option value="70"></option>
+                <option value="80"></option>
+                <option value="90"></option>
+                <option value="100" label="100"></option>
+            </datalist>
+            <input type="submit" value="확인">
+        </form>
+    </body>
+
+</html>

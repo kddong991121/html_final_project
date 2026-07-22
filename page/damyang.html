@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>담양</title>
+        <style>
+            button{
+                float: left;
+            }
+            hr{
+                background-color: blue;
+                height: 2px;
+            }
+            body{
+                background-color: darkseagreen;
+                text-align: center;
+            }
+            .title{
+                font: bold;
+                font-size: 25px;
+                font-weight: 900;
+            }
+            .lineheight{
+                line-height: 200%;
+            }
+            .fg{
+                opacity: 0.5;
+            }
+        </style>
+    </head>
+    <body>
+        <button type="button" onclick="location.href='Project1.html'">홈으로</button>
+        <p class="title">전라남도 담양</p>
+        <img src="media/logo.png" alt="" width="25%" height="25%">
+        <h3>죽녹원</h3>
+        <hr>
+        <p class="lineheight">
+            <img src="media/죽녹원1.jpg" width="25%" height="25%"><br>
+            지인의 초대로 인해 담양에 놀러갔다. <br>
+            대나무를 언제봤는지 기억조차 나지않았다. <br>
+            대숲을 천천히 걸으며 바쁘게 살아왔던 나를 되돌아 보았다. <br>
+            그리고 사람들이 왜 자신의 속마음을 대숲에 묻어두고 나오는지 조금은 알 수 있었다. <br>
+            바쁜 일상에 치어 사는 사람들이 꼭 한번 와봤으면 하는 장소다.  <br>
+            <hr>
+            <h3>뚝방국수</h3>
+            <figure>
+                <img src="media/noodlehome.jpg" width="25%" height="25%"> <br>
+                <figcaption class="fg">담양 뚝방국수 입구</figcaption>
+            </figure>
+
+            담양에는 국수거리가 있다. <br>
+            인터넷에는 많은 가게가 소개되어 있지만 이 가게가 제일 로컬맛집 같았다. <br>
+
+            <figure>
+                <img src="media/noodle.jpg"><br>
+                <figcaption class="fg">메인 메뉴인 비빔국수와 잔치국수</figcaption>
+            </figure>
+
+            메인메뉴는 국수집답게 잔치국수와 비빔국수가 있었다. <br>
+            비빔국수는 조금 매운맛이 강했지만 맛이 좋았고 <br>
+            잔치국수는 특별한 맛은 아니었지만 맛있는 잔치국수의 표본이었다. <br>
+
+            <figure>
+                <img src="media/chicken.jpg" width="25%" height="25%"><br>
+                <figcaption class="fg">특이하게 사이드 메뉴가 닭발이 있었다</figcaption>
+                사이드메뉴로 닭발이 있었다. 조금 의외라고 생각했다. 닭발을 메인으로 먹으러 가는 일은 있어도 <br>
+                다른 메인을 먹으러가서 사이드로 닭발을 먹는 일은 보통 없으니까. <br>
+                맛이 너무 좋았다. 무뼈닭발인데 간이 그렇게 쎄지도 않았고 딱 사이드메뉴에 어울렸다. <br>
+                계란말이도 있었지만 그저 평범했다. <br>
+            </figure>
+        </p>
+        <form>
+            이 게시물이 유용했나요 ?
+            <input type="range" min="0" max="100" list="rangevisibility">
+            <datalist id="rangevisibility">
+                <option value="0" label="0"></option>
+                <option value="10"></option>
+                <option value="20"></option>
+                <option value="30"></option>
+                <option value="40"></option>
+                <option value="50" label="50"></option>
+                <option value="60"></option>
+                <option value="70"></option>
+                <option value="80"></option>
+                <option value="90"></option>
+                <option value="100" label="100"></option>
+            </datalist>
+            <input type="submit" value="확인">
+        </form>
+    </body>
+
+</html>
